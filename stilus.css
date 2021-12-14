@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+main{
+    max-width: 900px;
+    margin: auto;
+}
+header{
+    background-color: black;
+}
+header nav{
+    max-width: 900px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+header nav ul li a,a{
+    color: white;
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+main nav div{
+    height: 10px;
+    width: 120px;
+    background-color: red;
+    border-right: 1px solid white;
+
+}
+main nav {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+
+}
+.zold{
+    background-color: green;
+    height: 15px;
+    border-bottom-right-radius:5px ;
+}
+.sarga{
+    background-color: yellow;
+
+}
+.kek{
+    background-color: blue;
+
+}
+.narancs{
+    background-color: orange;
+}
